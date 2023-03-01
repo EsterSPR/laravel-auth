@@ -1,1 +1,37 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;700&family=Montserrat:wght@400;700&display=swap');
+
+// RED: #FF595E;
+// YELLOW: #FFCA3A;
+// PINK: #FF579F;
+// GREEN: #6BF178;
+// BLUE: #00D7FF;
+
+//font-family: 'Josefin Sans', sans-serif;
+//font-family: 'Montserrat', sans-serif;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #FFCA3A !important;
+    color: #FF595E !important;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header a{
+    color: #FF595E !important;
+}
+
+.es_dropdown{
+    border: 1px solid #FF595E;
+}
+
+footer{
+    color: #FFCA3A !important;
+    background-color: #FF595E !important;
+    font-family: 'Josefin Sans', sans-serif;
+}
