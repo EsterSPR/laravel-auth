@@ -2,8 +2,8 @@
 
 @section('content')
 <div class="container">
-    <h2 class="fs-4 es_title es_red my-4">
-        {{ __('Dashboard') }}
+    <h2 class="es_title es_red mt-5">
+        {{ __('Dashboard') }} <a href="{{route('admin.projects.create') }}"> <button type="button" class="btn es_button btn-sm">Add new</button> </a>
     </h2>
     <div class="row justify-content-center">
         <div class="col">
