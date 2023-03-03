@@ -16,10 +16,26 @@
     box-sizing: border-box;
 }
 
+.es_title{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.es_red{
+    color: #FF595E !important;
+}
+
+.es_yellow{
+    color: #FFCA3A !important;
+}
+
 header{
     background-color: #FFCA3A !important;
     color: #FF595E !important;
     font-family: 'Josefin Sans', sans-serif;
+}
+
+header h4{
+    font-weight: bold;
 }
 
 header a{
