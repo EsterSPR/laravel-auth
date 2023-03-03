@@ -51,7 +51,7 @@ class ProjectController extends Controller
      * @param  \App\Models\Project  $project
      * @return \Illuminate\Http\Response
      */
-    public function show(Project $project)
+    public function show($id)
     {
         $project = Project::findOrFail($id);
         return view('admin.projects.show', compact('project'));

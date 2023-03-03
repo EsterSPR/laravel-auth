@@ -21,6 +21,7 @@ return new class extends Migration
             $table->string('project_title', 100)->unique();
             $table->text('cover_img', 300)->unique();
             $table->string('slug', 100)->unique();
+            $table->text('project_desc', 1000);
 
             $table->timestamps();
         });
