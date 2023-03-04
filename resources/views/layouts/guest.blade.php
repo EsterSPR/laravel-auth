@@ -21,7 +21,7 @@
 <body>
     <div id="app">
 
-        <header>
+        <header class="es_header">
 
             <nav class="navbar navbar-expand-md shadow-sm">
                 <div class="container">
@@ -84,9 +84,9 @@
             @yield('content')
         </main>
 
-        <footer class="text-center pt-4 pb-2">
+        <!-- <footer class="text-center pt-4 pb-2">
             <p>Boolfolio Website <i class="fa-regular fa-registered"></i> 2023 - Ester Spreafico</p>
-        </footer>
+        </footer> -->
 
     </div>
 </body>

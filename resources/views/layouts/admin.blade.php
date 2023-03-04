@@ -21,7 +21,7 @@
 <body>
     <div id="app">
 
-        <header>
+        <header class="es_header">
 
             <nav class="navbar navbar-expand-md shadow-sm">
                 <div class="container">
